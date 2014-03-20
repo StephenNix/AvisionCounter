@@ -5,6 +5,47 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image:url('../img/pixel_weave.png');
+}
+
+#ticketCount {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image:url('../img/lingo_sphere.png');
+    background-size: 100% 100%;
+}
+
+#counter {
+    -moz-animation-duration: 0.2s;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    font-family: "Consolas";
+    font-size: 200pt;
+    margin: auto auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-top: 14px;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 100px;
+}
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -88,57 +129,6 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    background-image:url('../img/pixel_weave.png');
-}
-
-#ticketCount {
-    text-align: center;
-    width: 400px;
-    height: 313px;
-    margin: 0 auto;
-}
-
-#counter {
-    -moz-animation-duration: 0.5s;
-    -webkit-animation-duration: 0.5s;
-    animation-duration: 0.5s;
-    font-family: "Consolas";
-    font-size: 200pt;
-    margin: 0 auto;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    
-}
-
-#buttons {
-    text-align: center;
-    margin-top: 100px;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================

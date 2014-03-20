@@ -1,13 +1,13 @@
 var counter = 0;
 function animateCounter () {
     
-    $("#counter").addClass('animated fadeOutLeft');
+    $("#counter").addClass('animated fadeOut');
     $('#counter').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
         $("#counter").html(counter);
-        $("#counter").removeClass('animated fadeOutLeft');
-        $("#counter").addClass('animated fadeInLeft');
+        $("#counter").removeClass('animated fadeOut');
+        $("#counter").addClass('animated fadeIn');
         $('#counter').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-            $("#counter").removeClass('animated fadeInLeft');
+            $("#counter").removeClass('animated fadeIn');
         });
     });
     
